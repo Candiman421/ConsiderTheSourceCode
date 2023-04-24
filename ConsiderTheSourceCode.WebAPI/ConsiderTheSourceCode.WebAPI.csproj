@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ConsiderTheSourceCode.Application\ConsiderTheSourceCode.Application.csproj" />
+    <ProjectReference Include="..\ConsiderTheSourceCode.Infrastructure\ConsiderTheSourceCode.Infrastructure.csproj" />
+    <ProjectReference Include="..\ConsiderTheSourceCode.Persistence\ConsiderTheSourceCode.Persistence.csproj" />
+    <ProjectReference Include="..\ConsiderTheSourceCode.Shared\ConsiderTheSourceCode.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
